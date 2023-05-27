@@ -10,7 +10,7 @@ app.use(express.json())
 app.use(cors())
 app.use(userRoutes)
 app.get("/",(req,res)=>{
-    res.status(200).send({mag:"Blog App"})
+    res.status(200).send({mag:"Chaabi App"})
 })
 
 app.listen(port=process.env.port||8080,async(req,res)=>{

@@ -6,7 +6,7 @@ const saltRounds = process.env.saltRounds;
 const jwt = require("jsonwebtoken");
 
 const userRoutes = express.Router();
-
+ 
 // user registration
 
 userRoutes.post("/register", async (req, res) => {
